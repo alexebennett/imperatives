@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.bx-wrapper {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 40px !important;
+}
+
+#nav {
+  height: 70px;
+  background: white;
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+}
+
+#logo {
+  transition: all ease .5s;
+}
+
+#logo-img {
+  height: 50px;
+}
+
+#nav.shrink {
+  height: 40px;
+  transition: all ease .5s;
+}
+
+#nav.shrink #logo {
+  padding: 10px;
+  transition: all ease .5s;
+}
+
+.box {
+  height:800px;
+  background-color: gray;
+}
